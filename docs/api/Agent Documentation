@@ -1,0 +1,30 @@
+# Agent Documentation 
+This service provides endpoints used by agents to execute tasks.
+
+---
+
+## 🔌 Endpoints
+
+### GET /health
+
+Check service status.
+
+Response:
+```json
+{
+  "status": "ok"
+}
+
+Executes a task triggered by an agent.
+
+Request:
+
+{
+  "task": "example"
+}
+
+Response:
+
+{
+  "message": "Task executed successfully"
+}
