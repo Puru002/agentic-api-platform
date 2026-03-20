@@ -1,0 +1,26 @@
+# Request Flow
+
+This document explains how a request moves through the system.
+
+---
+
+## 🔄 Flow
+
+1. User sends a request
+2. Agent interprets intent
+3. Agent selects API
+4. API forwards to service
+5. Service executes logic
+6. Response returned to user
+
+---
+
+## 🧠 Example
+
+User: "Get user data"
+
+→ Agent decides action  
+→ Calls API  
+→ API calls service  
+→ Service returns data  
+→ Agent formats response
