@@ -1,0 +1,33 @@
+# Agent Types
+
+This document defines the types of agents in the platform.
+
+---
+
+## 🤖 Orchestrator Agent
+
+- Controls workflow
+- Decides which API to call
+- Coordinates multiple agents
+
+---
+
+## ⚙️ Task Agent
+
+- Executes specific tasks
+- Calls APIs
+- Returns results
+
+---
+
+## 🔍 Retrieval Agent
+
+- Fetches data
+- Queries APIs/services
+- Provides context to other agents
+
+---
+
+## 🔄 Interaction Flow
+
+User → Orchestrator → Task Agent → API → Service
