@@ -15,3 +15,20 @@ Response:
 {
   "status": "ok"
 }
+
+Request
+{
+  "task": "get-user-data",
+  "input": {
+    "userId": "123"
+  }
+}
+
+Response
+{
+  "status": "success",
+  "data": {
+    "userId": "123",
+    "name": "John Doe"
+  }
+}
